@@ -12866,7 +12866,15 @@ header.masthead .h1 {
   color: #dedede;
 }
 
-
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
